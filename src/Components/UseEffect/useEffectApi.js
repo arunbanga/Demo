@@ -13,7 +13,7 @@ const UseEffectApi = () => {
     <>
       <div className="w-full mx-auto justify-between">
         <p className="text-4xl text-center">List of Github users</p>
-        <div className="w-full mt-6 px-5 m-auto h-[250px]">
+        <div className="w-full mt-6 px-5 m-auto h-[300px]">
           <div className=" grid grid-cols-3 ">
             {users.map((curElem) => {
               return (
@@ -27,20 +27,20 @@ const UseEffectApi = () => {
                         <p className="font-semibold px-3">
                           {curElem.login}
                           <br />
-                          <span className="px-3">Web developer</span>
+                          <span className="px-3">{curElem.html_url}</span>
                         </p>
                       </div>
-                      <div className="flex">
-                        <div>
-                          <span>Article</span>
+                      <div className="flex mt-6 ml-2 border-2 bg-gray-300 text-gray-900">
+                        <div className="px-2">
+                          <span className="block">Article</span>
                           <span>38</span>
                         </div>
                         <div>
-                          <span>Followers</span>
-                          <span></span>
+                          <span className="block">Followers</span>
+                          <span>980</span>
                         </div>
-                        <div>
-                          <span>Rating</span>
+                        <div className="px-2">
+                          <span className="block">Rating</span>
                           <span>8.9</span>
                         </div>
                       </div>
