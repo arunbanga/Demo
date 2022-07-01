@@ -30,7 +30,7 @@ const UseEffectApi = () => {
                           <span className="px-3">{curElem.html_url}</span>
                         </p>
                       </div>
-                      <div className="flex mt-6 ml-2 border-2 bg-gray-300 text-gray-900">
+                      <div className="flex mt-6 ml-2 border-2 bg-gray-300 text-gray-900 justify-center">
                         <div className="px-2">
                           <span className="block">Article</span>
                           <span>38</span>
