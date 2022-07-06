@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
-const Forms = () => {
+const Formed = () => {
   const initialValues = {
     name: "",
     email: "",
@@ -99,4 +99,4 @@ const Forms = () => {
   );
 };
 
-export default Forms;
+export default Formed;
